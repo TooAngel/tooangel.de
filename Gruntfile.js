@@ -38,6 +38,19 @@ htmllint: {
     },
     },
   },
+  dock: {
+    options: {
+      docker: {socketPath: '/var/run/docker.sock'},
+      images: {
+        'tooangel': {
+          dockerfile: './Dockerfile',
+          options: {
+            build: {}
+          }
+        }
+      }
+    }
+  },
 mdlint: ['*.md', '_posts/*.markdown']
 });
 
@@ -45,6 +58,7 @@ grunt.loadNpmTasks('grunt-jekyll');
 grunt.loadNpmTasks('grunt-htmllint');
 grunt.loadNpmTasks('grunt-mdspell');
 grunt.loadNpmTasks('grunt-mdlint');
+grunt.loadNpmTasks('grunt-dock');
 
 grunt.registerTask('default', ['mdlint', 'htmllint', 'mdspell', 'jekyll:build']);
 }
