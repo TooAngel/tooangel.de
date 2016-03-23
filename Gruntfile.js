@@ -9,6 +9,13 @@ grunt.initConfig({
         future: true
       }
     },
+    build: {
+      options: {
+        serve: false,
+        drafts: true,
+        future: true
+      }
+    },
   },
 htmllint: {
     html: {
@@ -31,11 +38,13 @@ htmllint: {
     },
     },
   },
+mdlint: ['*.md', '_posts/*.markdown']
 });
 
 grunt.loadNpmTasks('grunt-jekyll');
 grunt.loadNpmTasks('grunt-htmllint');
 grunt.loadNpmTasks('grunt-mdspell');
+grunt.loadNpmTasks('grunt-mdlint');
 
-grunt.registerTask('default', ['htmllint', 'mdspell']);
+grunt.registerTask('default', ['mdlint', 'htmllint', 'mdspell', 'jekyll:build']);
 }

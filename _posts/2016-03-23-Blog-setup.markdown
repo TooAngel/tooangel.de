@@ -25,7 +25,8 @@ spell checking.
 [grunt-spell] which is the first search result has very limited configuration
 options and has problems with html and jekyll markdown files.
 So I ended up using [grunt-htmllint] with [htmllint-spellcheck] and
-[grunt-mdspell].
+[grunt-mdspell] and [grunt-mdlint] for linting.
+
 
 
 [exoscale]: https://www.exoscale.ch/
@@ -33,8 +34,9 @@ So I ended up using [grunt-htmllint] with [htmllint-spellcheck] and
 [GitHub Pages]: https://pages.github.com/
 [grunt]: http://gruntjs.com/
 [grunt-jekyll]: https://github.com/dannygarcia/grunt-jekyll
-[grunt-spell]: https://github.com/shama/grunt-spell
 [grunt-htmllint]: https://www.npmjs.com/package/grunt-htmllint
+[grunt-mdlint]: https://github.com/ChrisWren/grunt-mdlint
+[grunt-spell]: https://github.com/shama/grunt-spell
 [htmllint-spellcheck]: https://github.com/htmllint/htmllint-spellcheck
 [grunt-mdspell]: https://www.npmjs.com/package/grunt-mdspell
 [jekyll]: https://jekyllrb.com/

@@ -18,3 +18,4 @@ linting
 grunt-htmllint
 htmllint-spellcheck
 grunt-mdspell
+grunt-mdlint
