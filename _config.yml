@@ -1,0 +1,10 @@
+title: TooAngel
+email: tooangel@tooangel.de
+description: >
+  Portal for all the stuff I'm doing, hopefully some articles and funny
+  projects.
+baseurl: ""
+url: "http://www.tooangel.de"
+twitter_username: tooangel
+github_username:  tooangel
+markdown: kramdown
