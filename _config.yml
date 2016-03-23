@@ -8,3 +8,4 @@ url: "http://www.tooangel.de"
 twitter_username: tooangel
 github_username:  tooangel
 markdown: kramdown
+exclude: [Gruntfile.js, package.json, node_modules]
