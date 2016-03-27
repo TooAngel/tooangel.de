@@ -43,9 +43,14 @@ htmllint: {
       docker: {socketPath: '/var/run/docker.sock'},
       images: {
         'tooangel': {
-          dockerfile: './Dockerfile',
+          dockerfile: '.',
           options: {
-            build: {}
+            build: {},
+            start: {"PortBindings": { "8080/tcp": [ { "HostPort": "80" } ] },
+"Env": [
+        'VIRTUAL_HOST=basis.tooangel.de'
+    ]
+}
           }
         }
       }
