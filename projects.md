@@ -17,11 +17,6 @@ permalink: /projects/
    - Currently broken, when adding the second Extruder
    - [Thingiverse]
  - Employed at [exoscale]
- - Watering system
-   arduinos connected with soil moisture sensors and controlling water pumps.
-   Reporting to a cloud application returning motor control values.
-   Cloud application was hosted on cloudControl, due to shutdown of the public
-   cloudControl offering, the cloud application is currently not available.
  - IoT
    Multiple 433Mhz senders and receivers and some Philipps hue components for
    controlling lights. Local Raspberry PI with [Home Assistant] as control
@@ -37,9 +32,6 @@ do it
  - Packing app
    When I need to pack my bag, have a list what I want to take with me.
    Especially since my daughter need some more stuff, I have to take we me.
- - Gardenbot
-   Next iteration of the 'Watering system'. Something with drives around and
-   maintenances the garden.
  - TickTick API
    I'm using [TickTick] for (shared) lists, ToDo, Shopping ...
    As soon as they open up their API, there is a lot of potential e.g.
