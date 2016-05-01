@@ -15,9 +15,9 @@ my pet projects with a blog component.
 I think [wordpress] is still the number one choice or at least the first which
 came to my mind. Some thought why I do not want to choose wordpress this time.
 
- - php: I try to avoid religious discussions about programming lanugages. I
+ - php: I try to avoid religious discussions about programming languages. I
 think in most of the cases these discussions are just to feel better ranting
-about the stuff which wasn't choosen. To decide for the right language has
+about the stuff which wasn't chosen. To decide for the right language has
 often a lot of factors, priority of performance of the application, security
 concerns, experience in the team, team size, the new cool thing around
 mentality, eco system, ....
@@ -34,7 +34,7 @@ only to writing a couple of lines?
  - cloud-ready: After working a couple of years in the cloud sector, I want to
 use stuff which is used at least somehow with the cloud mindset. Hosting
 wordpress in the cloud is possible, but you have to walk some ways, which are
-necessary meat this way.
+necessary meant this way.
 
 K, let's have a look in the python CMS sector. [mezzanine] caught my interest.
 
@@ -44,7 +44,7 @@ And you wouldn't have used them before if you wouldn't like them
  - Easy to install.
 
 
-At [exoscale] I'm currently working on runstatus, which generates static status
+But, at [exoscale] I'm currently working on runstatus, which generates static status
 pages. This led me also to the idea to have something static. [GitHub Pages]
 came first to my mind. But again the American, big company topic.
 

@@ -1,7 +1,8 @@
 # TooAngel homepage
 
 ## Deploy
-No deploy yet
+`git push basisbare`
+`ssh basis ./deploywww.sh`
 
 ## Test
 No tests yet

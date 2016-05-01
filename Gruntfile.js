@@ -31,11 +31,11 @@ htmllint: {
   },
   mdspell: {
     options: {
+       ignoreAcronyms: true,
+       ignoreNumbers: true
     },
-    your_target: {
       files: {
       src: ['*.md', '_posts/*']
-    },
     },
   },
   dock: {
