@@ -5,9 +5,9 @@ teaser: "Docuit is a tool which makes sure your README stays up to date
 and simplifies getting the needed parts out of the README."
 date:   2016-05-01 21:28:55 +0200
 categories:
- - hosting
- - blog
- - tech
+ - development
+ - readmin
+ - automation
 ---
 
 [Docuit] is a tool which makes sure your README stays up to date

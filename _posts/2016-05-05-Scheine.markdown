@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Scheine"
+date:   2016-05-05 16:45:56 +0200
+categories:
+ - scheine
+ - license
+ - bescheinigung
+ - private genehmigungen
+---
+
+Idea: gamify education
+
+ - Get points for learning stuff (participating in courses, learning skills)
+ - Points get accepted by other users or official places
+ - Something like [Der VDSI-Weiterbildungsnachweis], but more Web 2.0
+
+Will write this in German because it is mostly about German licenses.
+
+Ein Sammlung von Scheinen die man so machen kann:
+
+ - [Ausbildereignungsprüfung]
+ - Motorradführerschein
+ - [Sportbootführerschein Binnen]
+ 
+ - [Motorsägenführerschein]
+ - Erste Hilfe
+ - Erste Hilfe baby
+ - Pflanzenschutzmittelausbringung
+ - Gabelstapler
+ - Arbeitsbuehnenschulung
+ - [Kleiner Waffenschein] kann einfach beantragt werden, 50 Euro.
+
+ - https://www.fortbildung24.com/
+
+[Ausbildereignungsprüfung]: https://de.wikipedia.org/wiki/Ausbilder
+[Sportbootführerschein Binnen]: https://de.wikipedia.org/wiki/Sportbootf%C3%BChrerschein_Binnen
+[Motorsägenführerschein]: https://de.wikipedia.org/wiki/Motors%C3%A4genschein
+[Kleiner Waffenschein]: https://de.wikipedia.org/wiki/Kleiner_Waffenschein
+[Der VDSI-Weiterbildungsnachweis]: https://www.vdsi.de/1489?wc_lkm=1565

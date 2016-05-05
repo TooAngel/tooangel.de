@@ -3,9 +3,9 @@ layout: post
 title:  "Gardenbot"
 date:   2016-05-01 21:45:11 +0200
 categories:
- - hosting
- - blog
- - tech
+ - arduino
+ - automation
+ - water
 ---
 
 Arduinos connected with soil moisture sensors and controlling water pumps.
