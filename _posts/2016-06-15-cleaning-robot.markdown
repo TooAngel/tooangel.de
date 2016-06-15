@@ -2,6 +2,7 @@
 layout: post
 title:  "Cleaning robot"
 date:   2016-06-15 22:38:51 +0200
+teaser: "Bought a Haier SWR-T325 and describing my experiences"
 categories:
  - robot
  - cleaning
