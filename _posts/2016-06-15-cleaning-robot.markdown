@@ -39,8 +39,10 @@ sense, catching the robot and hitting the right button, could get annoying.
 
 4 programs: Just clean, especially dirty places, edges and scheduled.
 IMHO I need two:
+
  - Now: Clean everything good
  - Scheduled / Daily: Like now, just automatic
+
 Anyway, will see how it works out.
 
 The first run was ~20 minutes, movement looks partly random. Ended up twice
