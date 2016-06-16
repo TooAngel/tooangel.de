@@ -1,4 +1,11 @@
-node:
-  build: .
-  ports:
-   - "80:80"
+version: '2'
+services:
+    blog:
+        build: .
+        command: "nginx -g 'daemon off;'"
+        volumes:
+            - _site:/usr/share/nginx/html
+        ports:
+            - "0.0.0.0:80:80"
+volumes:
+  _site: {}
