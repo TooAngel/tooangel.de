@@ -22,18 +22,9 @@ interface looks old, the newest ubuntu version which I can install is:
 the idea is to explore and improve reasonable security, so I don't want
 to have a 'random' pre installed operation system.
 
-Gatekeeper: 
- - [nginx-lua-redis] Too old versions, too old
- - [openresty] 
-
-
-
 
 [accelerated]: https://www.accelerated.de
 [AWS]: https://aws.amazon.com/
 [CloudStack]: https://cloudstack.apache.org/
-[nginx-lua-redis]: https://sosedoff.com/2012/06/11/dynamic-nginx-upstreams-with-lua-and-redis.html
 [google compute engine]: https://cloud.google.com/compute/
 [OpenStack]: https://www.openstack.org/
-[openresty]: http://openresty.org/en/dynamic-routing-based-on-redis.html
-

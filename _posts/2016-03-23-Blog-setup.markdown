@@ -44,7 +44,7 @@ And you wouldn't have used them before if you wouldn't like them
  - Easy to install.
 
 
-But, at [exoscale] I'm currently working on runstatus, which generates static status
+But, at [exoscale] I was working on runstatus, which generates static status
 pages. This led me also to the idea to have something static. [GitHub Pages]
 came first to my mind. But again the American, big company topic.
 

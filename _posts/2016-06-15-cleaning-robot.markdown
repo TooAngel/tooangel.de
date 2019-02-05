@@ -53,13 +53,18 @@ Cleaning the dirt surprised me. You can open the cover easily and take out
 a plastic box. After ~20 minutes the box was well feed with dirt, didn't
 expect that.
 
-I didn't check too much for others, but I'm a bit disappointet, that I don't
+The second run was ~60 minutes, movement looks still pretty random, reached
+all rooms. Not so sure if it covers every centimeter. I think it is noteworthy
+that it seems like the logic for finding the base station, is simply following
+the left wall. Too bad that I have in my current flat some kind of roundabout
+with my bath room. So I found the robot running a round this wall. Also there
+was one situation where the robot was stuck.
+
+I didn't check too much for others, but I'm a bit disappointed, that I don't
 have any connectors. Bluetooth, Wifi or any connection would be nice.
-Get some kind of notification when the roboter starts cleaning, or trigger
+Get some kind of notification when the robot starts cleaning, or trigger
 the cleaning via API, monitor the cleaning duration, ... there are so many
 nice things you can build around.
-
-Will update when I gathered more experience.
 
 [haier]: http://www.haier.com/
 [nimbro page]: http://www.nimbro.net/@Home/robots.html

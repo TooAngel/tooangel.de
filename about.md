@@ -8,12 +8,12 @@ permalink: /about/
  - Studied computer science or Informatik
  - Founded cloudControl and worked as CTO
  - Play around with a 3D printer
- - Internet of things and smart home my pet projects
+ - Some smart home pet projects
  - Screeps is awesome
 
- 
-     Tobias Wilken
-     Kolberger Strasse 23
-     D-13357 Berlin
-     tooangel@tooangel.de
- 
+```
+Tobias Wilken
+Ziegeleiweg 29
+D-26203 Wardenburg
+tooangel@tooangel.de
+```
