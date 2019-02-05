@@ -2,6 +2,7 @@
 layout: post
 title:  "Gardenbot"
 date:   2016-05-01 21:45:11 +0200
+teaser: "Someone should water my plants"
 categories:
  - arduino
  - automation
@@ -18,20 +19,20 @@ ToDos:
 
  - fix broken arduinos
  - Connect solar panel
- 
+
  Some links:
- 
+
  - [http://plantsandmachines.com/]
  - [http://www.jqplot.com/tests/zooming.php]
  - [http://gardenbot.org/about/]
  - [https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus]
  - [http://iqjar.com/jar/wp-content/uploads/2013/01/p1header.png]
-  
+
 Other stuff:
 
  - Linear-IC MCP3008-I/P PDIP-16 Microchip Technology Ausführung ADC 10BIT 2.7V 8CH SPI
  - Potentiometer Service GmbH Potentiometer 16 mm PC16BU 9599 Mono Lin 100 Ω 0.25 W
- 
+
 [sensorviewer]: https://github.com/tooangel/sensorviewer
 
 [http://plantsandmachines.com/]: http://plantsandmachines.com/

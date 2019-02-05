@@ -2,6 +2,7 @@
 layout: post
 title:  "Server setup"
 date:   2016-03-22 21:31:12 +0100
+teaser: "Decision process for a root server"
 categories:
  - hosting
  - blog

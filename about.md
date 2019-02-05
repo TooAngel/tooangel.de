@@ -5,9 +5,10 @@ permalink: /about/
 ---
 
  - Did some sysadmin stuff
+ - Organized lan parties (when they were still cool)
  - Studied computer science or Informatik
- - Founded cloudControl and worked as CTO
- - Play around with a 3D printer
+ - Founded myPeak and cloudControl and worked as CTO
+ - Playing around with a 3D printer
  - Some smart home pet projects
  - Screeps is awesome
 

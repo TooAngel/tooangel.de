@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Docadm"
+date:   2019-02-05 17:56:23 +0200
+teaser: "I have an idea"
+categories:
+ - docadm
+ - devops
+---
+
+Surely the name is somehow derived from devops. The idea of docadm is
+that the administrative task are done via documentation changes.
+
+Based on the git flow concept or managing documentation in repositories and
+markdown, transferrable to other scenarios, but let's keep this in mind for now.
+
+Using the continous deployment pipeline to execute necessary tasks. Execution
+of commands on merge to master. Regular checks, e.g. nightly builds to verify
+that the configuration is not changed.
+
+User management:
+Having something like a `team.md` with a list or table of users. Accounts
+can be automatically created or deleted from all services.
+
+Application management:
+Well I build a PaaS platform, so everything is some kind of web app for me.
+Having something like a `applications.md` these can be automatically created
+at the preferred PaaS solution (or however you deploy apps). Maybe have a
+table with the domain (DNS Server APIs are not that far).
+
+You see were it is going.
+
+My team uses jira and we agreed on a certain format for stories.
+```
+AS.*\nI\ WANT.*\nSO\ THAT.*\n\nAcceptance\ criteria:\n(-.*)+\n\nReviewer:.*
+```
+Wrote this in our documentation, now docadm flags stories as not prepared
+based on this regexp.
+
+Sounds good? I hope so.
+
+Tricky part, who is allowed to merge to master and change the system?
+Well, that question need the answer each one on their own and good advices
+are difficult.

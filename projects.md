@@ -6,19 +6,22 @@ permalink: /projects/
 
 ## Currently working on:
 
- - My daughters
+ - My family
  - Screeps
    The world's first MMO strategy sandbox game for programmers - Awesome addictive
    - [screeps]
    - [tooangel npc]
  - 3d printer
-   - i3 Berlin & emden 2
+   - i3 Berlin & ender 2
    - [Thingiverse]
  - Employed at [relocately]
  - IoT
    Multiple 433Mhz senders and receivers, some Philipps hue components for
    controlling lights and Sonos speakers. Local Raspberry PI with
-   [Home Assistant] as control    interface.
+   [Home Assistant] as control interface.
+ - 3d printed lawn mower
+ - Home automation (without cloud)
+ - World driven
 
 ## List of ideas:
 If I find time search for existing solutions or implement something or just

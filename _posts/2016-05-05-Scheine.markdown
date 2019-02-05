@@ -2,6 +2,7 @@
 layout: post
 title:  "Scheine"
 date:   2016-05-05 16:45:56 +0200
+teaser: "Certificates and gamify education"
 categories:
  - scheine
  - license
@@ -23,13 +24,13 @@ Ein Sammlung von Scheinen die man so machen kann:
  - Motorradführerschein
  - [Sportbootführerschein Binnen]
  - [Kleiner Waffenschein] kann einfach beantragt werden, 50 Euro.
-
  - [Motorsägenführerschein]
+
  - Erste Hilfe
  - Erste Hilfe baby
  - Pflanzenschutzmittelausbringung
- - Gabelstapler
- - Arbeitsbuehnenschulung
+ - Gabelstapler (Ich glaube den muss man regelmaessig erneuern)
+ - Arbeitsbuehnenschulung (Ziemlich teuer)
  - Aufzug Abnahme Schein
 
  - https://www.fortbildung24.com/

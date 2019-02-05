@@ -2,6 +2,7 @@
 layout: post
 title:  "Blog setup"
 date:   2016-03-23 21:31:12 +0100
+teaser: "Decision process for the app setup"
 categories:
  - hosting
  - blog

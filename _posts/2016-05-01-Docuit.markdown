@@ -19,7 +19,7 @@ to `build`, `test`, `run` and `deploy` needs to be fetched to use the source.
 In good cases with a proper documentation it is sometimes tedious to find that
 over and over again.
 
-Docuit parses the README for the needed part prints them out ord can execute
+Docuit parses the README for the needed part prints them out or can execute
 the steps right away.  
 
  - `docuit.py check` to make sure all necessary parts exist and prints out what

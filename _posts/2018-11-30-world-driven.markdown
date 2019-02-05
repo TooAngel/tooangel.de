@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Chatops"
-date:   2016-06-23 20:41:18 +0200
-teaser: "My thoughts about chatops"
-categories:
- - chatops
- - errbot
----

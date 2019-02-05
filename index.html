@@ -4,24 +4,21 @@ layout: default
 
 <div class="home">
 
-<div>If you read this you are most probably wrong here. The page is
+<div><h1>If you read this you are most probably wrong here. The page is
 automatically generated from the github repository https://...., which is world
 driven, and hosted as github page. No tracking, no bullshit. If you have privacy
-concerns, please leave or check out github documentation.</div>
+concerns, please leave or check out github documentation.</h1></div>
 <br />
 
   <h1 class="page-heading">Posts</h1>
-
+  <hr />
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        {{ post.teaser }}
+        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> {{ post.teaser }}
       </li>
+      <hr />
     {% endfor %}
   </ul>
 

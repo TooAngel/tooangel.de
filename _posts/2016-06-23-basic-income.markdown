@@ -55,11 +55,13 @@ the money and the exact amount.
 
 ### Adapting the pay
 
+To be continued ...
+
 ## Why
 
-Saving jobs => Reducing jobs
-Fear of unemployment
-There will not be enought jobs
+ - Saving jobs => Reducing jobs
+ - Fear of unemployment
+ - There will not be enough jobs
 
 
 
