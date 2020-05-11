@@ -42,3 +42,7 @@ Sounds good? I hope so.
 Tricky part, who is allowed to merge to master and change the system?
 Well, that question need the answer each one on their own and good advices
 are difficult.
+
+Service discovery can also be handled, we are using http://www.nomnoml.com/ to
+build up graphs and connections between applications. This info can be used
+to distributed necessary authentication keys automatically between all apps.
