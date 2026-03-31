@@ -1,11 +1,6 @@
-title: TooAngel
+title: Tobias Wilken
 email: tooangel@tooangel.de
-description: >
-  Portal for all the stuff I'm doing, hopefully some articles and funny
-  projects.
+description: "CTO | Building products & engineering teams"
 baseurl: ""
-url: "http://www.tooangel.de"
-twitter_username: tooangel
-github_username:  tooangel
+url: "https://www.tooangel.de"
 markdown: kramdown
-exclude: [Gruntfile.js, package.json, node_modules]
