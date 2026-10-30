@@ -1,9 +1,106 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tobias Wilken</title>
+  <meta name="description" content="Tobias Wilken: software engineer and engineering leader. Open source since 2009.">
+  <link rel="canonical" href="https://www.tooangel.de/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23235c8c'/%3E%3Ctext x='16' y='21.5' font-family='sans-serif' font-size='14' font-weight='700' fill='white' text-anchor='middle'%3ETW%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #fbfbf9;
+      --text: #1d1f21;
+      --muted: #5c6166;
+      --line: #e3e3de;
+      --accent: #235c8c;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16181a;
+        --text: #e6e6e3;
+        --muted: #9aa0a6;
+        --line: #2c2f33;
+        --accent: #7fb3e0;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    main { max-width: 42rem; margin: 0 auto; padding: 4.5rem 1.25rem 3rem; }
+    h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 .4rem; letter-spacing: -.01em; }
+    .lead { color: var(--muted); font-size: 1.1rem; margin: 0 0 2rem; }
+    h2 {
+      font-size: .8rem; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--muted); margin: 2.75rem 0 1rem; padding-bottom: .4rem;
+      border-bottom: 1px solid var(--line);
+    }
+    p { margin: 0 0 1rem; }
+    a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+    ul { list-style: none; margin: 0; padding: 0; }
+    li { margin: 0 0 1.1rem; }
+    .item-title { font-weight: 600; }
+    .item-text { color: var(--muted); }
+    code { font: .85rem/1.4 ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; overflow-wrap: anywhere; }
+    .contact li { margin-bottom: .5rem; }
+    .contact span { display: inline-block; min-width: 7.5rem; color: var(--muted); }
+    footer { margin-top: 3.5rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Tobias Wilken</h1>
+    <p class="lead">Software engineer and engineering leader in Wardenburg, Germany. Open source since 2009.</p>
+  </header>
 
-<div class="home" style="text-align: center; padding: 80px 20px;">
-  <h1>Tobias Wilken</h1>
-  <p>CTO | Building products & engineering teams</p>
-  <p><a href="mailto:tooangel@tooangel.de">tooangel@tooangel.de</a></p>
-</div>
+  <p>I work as a CTO, building products and engineering teams, and I still write a lot of code myself. In my spare time I fix the problems I run into in the open-source stack I use every day, from the Linux kernel to the desktop, and send the fixes upstream.</p>
+
+  <h2>Projects</h2>
+  <ul>
+    <li>
+      <a class="item-title" href="https://www.worlddriven.org">worlddriven</a>
+      <div class="item-text">Pull requests get merged by contribution-weighted voting, so an open-source project can keep going without a single gatekeeper.</div>
+    </li>
+    <li>
+      <a class="item-title" href="https://github.com/TooAngel/screeps">TooAngel Screeps bot</a>
+      <div class="item-text">An autonomous AI for the programming MMO Screeps. Developed since 2015, 640+ stars and 160+ forks on GitHub.</div>
+    </li>
+  </ul>
+
+  <h2>Upstream contributions</h2>
+  <ul>
+    <li>
+      <a class="item-title" href="https://lore.kernel.org/r/20261021065833.120347-1-tooangel@tooangel.de">Linux kernel: Bluetooth</a>
+      <div class="item-text">Report <code>RFKILLED</code> instead of a generic failure when powering on a blocked controller. Applied to bluetooth-next.</div>
+    </li>
+    <li>
+      <a class="item-title" href="https://git.kernel.org/pub/scm/bluetooth/bluez.git/commit/?id=aa3d6c761cb1cdb3b1effc30740e32f5f37d0586">BlueZ</a>
+      <div class="item-text">Don't power on an adapter while it's blocked by rfkill, plus a <a href="https://git.kernel.org/pub/scm/bluetooth/bluez.git/commit/?id=1445a64e6b998a7cbccd85995d1d8dae659aa783">mgmt-tester test</a> for the kernel fix. Applied.</div>
+    </li>
+    <li>
+      <span class="item-title">In review</span>
+      <div class="item-text">
+        <a href="https://github.com/pi-hole/pi-hole/pull/6746">Pi-hole</a>,
+        <a href="https://gitlab.com/CalcProgrammer1/OpenRGB/-/merge_requests/3757">OpenRGB</a>,
+        <a href="https://gitlab.gnome.org/GNOME/mutter/-/merge_requests/5415">mutter</a>,
+        <a href="https://github.com/bugaevc/wl-clipboard/pull/303">wl-clipboard</a>
+      </div>
+    </li>
+  </ul>
+
+  <h2>Contact</h2>
+  <ul class="contact">
+    <li><span>Mail</span><a href="mailto:tooangel@tooangel.de">tooangel@tooangel.de</a></li>
+    <li><span>GitHub</span><a rel="me" href="https://github.com/TooAngel">TooAngel</a></li>
+    <li><span>Signing key</span><a href="/keys/ssh-signing.pub">SSH ed25519</a> <code>SHA256:GqmNgCVcmicLbbOLZ8ZnHX5QFjQAFnm6g2yo0TDVQQs</code></li>
+  </ul>
+
+  <footer>© Tobias Wilken · No cookies, no tracking.</footer>
+</main>
+</body>
+</html>

@@ -1,15 +1,11 @@
-# TooAngel homepage
+# www.tooangel.de
 
-## Deploy
-`git push basisbare`
-`ssh basis ./deploywww.sh`
+Personal page of Tobias Wilken, served by GitHub Pages from `master`.
 
-## Test
-No tests yet
+Plain static HTML, no build step (`.nojekyll`). Preview locally:
 
-## Run
-`jekyll serve`
-Open `http://127.0.0.1:4000/`
+    python3 -m http.server 8000
 
-## Build
-No build yet
+and open http://127.0.0.1:8000/.
+
+`keys/ssh-signing.pub` is the public SSH key used to sign commits.
