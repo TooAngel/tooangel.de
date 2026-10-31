@@ -1,8 +1,13 @@
 # www.tooangel.de
 
-Personal page of Tobias Wilken, served by GitHub Pages from `master`.
+Personal page of Tobias Wilken. Plain static HTML, no build step.
 
-Plain static HTML, no build step (`.nojekyll`). Preview locally:
+Served by nginx in a container on dokku (app `tooangel-de` on server).
+A push to `master` triggers `.github/workflows/deploy.yml`, which asks the
+dokku-bridge to sync and build this repo, then waits until the live page
+matches the commit.
+
+Preview locally:
 
     python3 -m http.server 8000
 
