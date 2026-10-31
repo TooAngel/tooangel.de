@@ -3,93 +3,164 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tobias Wilken</title>
-  <meta name="description" content="Tobias Wilken: software engineer and engineering leader. Open source since 2009.">
+  <title>Tobias Wilken (TooAngel)</title>
+  <meta name="description" content="Tobias Wilken (TooAngel): CTO at ContractHero, co-founder of myPeak and cloudControl, open-source contributor. Wardenburg, Germany.">
   <link rel="canonical" href="https://www.tooangel.de/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23235c8c'/%3E%3Ctext x='16' y='21.5' font-family='sans-serif' font-size='14' font-weight='700' fill='white' text-anchor='middle'%3ETW%3C/text%3E%3C/svg%3E">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tobias Wilken",
+    "alternateName": "TooAngel",
+    "url": "https://www.tooangel.de/",
+    "email": "mailto:tooangel@tooangel.de",
+    "jobTitle": "CTO",
+    "worksFor": { "@type": "Organization", "name": "ContractHero", "url": "https://www.contracthero.com" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Bonn" },
+    "homeLocation": { "@type": "Place", "name": "Wardenburg, Germany" },
+    "sameAs": [
+      "https://github.com/TooAngel",
+      "https://www.linkedin.com/in/tooangel"
+    ]
+  }
+  </script>
   <style>
+    /* Colours from the "datacenter" desktop theme: blue-black, rack panels, ice-blue LEDs. */
     :root {
-      --bg: #fbfbf9;
-      --text: #1d1f21;
-      --muted: #5c6166;
-      --line: #e3e3de;
-      --accent: #235c8c;
+      color-scheme: dark light;
+      --bg: #0b1220;
+      --panel: #111a2e;
+      --line: #1e2a44;
+      --text: #e8f6ff;
+      --muted: #8fa3c4;
+      --accent: #38bdf8;
+      --accent2: #2563eb;
+      --glow: rgba(56, 189, 248, .35);
+      --grid: rgba(56, 189, 248, .045);
     }
-    @media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: light) {
       :root {
-        --bg: #16181a;
-        --text: #e6e6e3;
-        --muted: #9aa0a6;
-        --line: #2c2f33;
-        --accent: #7fb3e0;
+        --bg: #eef4fb;
+        --panel: #ffffff;
+        --line: #d5e1f0;
+        --text: #0b1220;
+        --muted: #4b5d7a;
+        --accent: #0284c7;
+        --accent2: #2563eb;
+        --glow: rgba(2, 132, 199, .25);
+        --grid: rgba(37, 99, 235, .05);
       }
     }
     * { box-sizing: border-box; }
+    html { background: var(--bg); }
     body {
       margin: 0;
-      background: var(--bg);
+      min-height: 100vh;
       color: var(--text);
-      font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font: 17px/1.65 Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background:
+        radial-gradient(60rem 30rem at 50% -8rem, var(--glow), transparent 70%),
+        linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / 32px 32px,
+        linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / 32px 32px,
+        var(--bg);
     }
-    main { max-width: 42rem; margin: 0 auto; padding: 4.5rem 1.25rem 3rem; }
-    h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 .4rem; letter-spacing: -.01em; }
-    .lead { color: var(--muted); font-size: 1.1rem; margin: 0 0 2rem; }
+    main { max-width: 44rem; margin: 0 auto; padding: 5rem 1.25rem 3rem; }
+    h1 {
+      font-size: 2.5rem; line-height: 1.15; margin: 0 0 .5rem; letter-spacing: -.02em;
+      background: linear-gradient(90deg, var(--text) 0%, var(--accent) 65%, var(--accent2) 100%);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    h1 small { font-size: 1.1rem; font-weight: 500; -webkit-text-fill-color: var(--muted); }
+    .lead {
+      color: var(--muted); margin: 0 0 1.5rem;
+      font: .95rem/1.5 ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    }
+    .lead::before { content: "▸ "; color: var(--accent); }
+    .motto {
+      margin: 0 0 2.25rem; padding: .9rem 1.1rem;
+      background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent);
+      border-radius: 6px; font-style: italic;
+      box-shadow: -6px 0 18px -10px var(--glow);
+    }
+    .intro { font-size: 1.12rem; line-height: 1.7; }
+    .motto-note { display: block; margin-top: .4rem; font-style: normal; font-size: .9rem; color: var(--muted); }
     h2 {
-      font-size: .8rem; text-transform: uppercase; letter-spacing: .08em;
-      color: var(--muted); margin: 2.75rem 0 1rem; padding-bottom: .4rem;
-      border-bottom: 1px solid var(--line);
+      display: flex; align-items: center; gap: .6rem;
+      font: 600 .78rem/1 ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+      text-transform: uppercase; letter-spacing: .12em;
+      color: var(--accent); margin: 3rem 0 1rem;
     }
+    h2::before {
+      content: ""; width: .5rem; height: .5rem; border-radius: 50%;
+      background: var(--accent); box-shadow: 0 0 8px 2px var(--glow);
+    }
+    h2::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, var(--line), transparent); }
     p { margin: 0 0 1rem; }
-    a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
-    ul { list-style: none; margin: 0; padding: 0; }
-    li { margin: 0 0 1.1rem; }
+    a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: var(--text); text-shadow: 0 0 12px var(--glow); }
+    ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
+    li {
+      padding: .85rem 1rem; background: var(--panel);
+      border: 1px solid var(--line); border-radius: 6px;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    li:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); box-shadow: 0 0 22px -12px var(--glow); }
     .item-title { font-weight: 600; }
     .item-text { color: var(--muted); }
-    code { font: .85rem/1.4 ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; overflow-wrap: anywhere; }
-    .contact li { margin-bottom: .5rem; }
-    .contact span { display: inline-block; min-width: 7.5rem; color: var(--muted); }
-    footer { margin-top: 3.5rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+    p.item-text {
+      padding: .85rem 1rem; background: var(--panel);
+      border: 1px solid var(--line); border-radius: 6px;
+    }
+    .contact { gap: 0; }
+    .contact li { border-radius: 0; border-bottom-width: 0; }
+    .contact li:first-child { border-radius: 6px 6px 0 0; }
+    .contact li:last-child { border-radius: 0 0 6px 6px; border-bottom-width: 1px; }
+    .contact span {
+      display: inline-block; min-width: 7.5rem; color: var(--muted);
+      font: .8rem ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; text-transform: uppercase; letter-spacing: .06em;
+    }
+    footer {
+      margin-top: 3.5rem; padding-top: 1rem; border-top: 1px solid var(--line);
+      color: var(--muted); font: .8rem ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    }
+    footer::before { content: "● "; color: #22c55e; text-shadow: 0 0 6px rgba(34, 197, 94, .6); }
+    @media (max-width: 30rem) {
+      h1 { font-size: 2rem; }
+      .contact span { display: block; min-width: 0; }
+    }
   </style>
 </head>
 <body>
 <main>
   <header>
-    <h1>Tobias Wilken</h1>
-    <p class="lead">Software engineer and engineering leader in Wardenburg, Germany. Open source since 2009.</p>
+    <h1>Tobias Wilken <small>(TooAngel)</small></h1>
+    <p class="lead">Builder, CTO at ContractHero · Wardenburg, Germany</p>
+    <blockquote class="motto">First time it's fun, second time shows the common denominator, third time automate it.
+      <span class="motto-note">I love automating things. Judging by my to-do list, I'm not very good at it yet.</span></blockquote>
   </header>
 
-  <p>I work as a CTO, building products and engineering teams, and I still write a lot of code myself. In my spare time I fix the problems I run into in the open-source stack I use every day, from the Linux kernel to the desktop, and send the fixes upstream.</p>
+  <p class="intro">I'm usually a little early. I wrote an AI chat bot long before anyone talked to one every day, streamed music to my flatmates before streaming had a name, started on cloud platforms when most people still thought of clouds as rain, and have been automating my home since long before smart homes came out of a box.</p>
 
-  <h2>Projects</h2>
+  <h2>Now</h2>
+  <p>CTO at ContractHero, where we build a platform for the whole contract lifecycle. I lead engineering and still write a good part of the code. I like to understand a system all the way down: when something in the stack breaks, I follow it as deep as it goes and send the fix upstream.</p>
+
+  <h2>Before</h2>
+  <p>Co-founder of myPeak, a competition community in Bonn, and of <a href="https://en.wikipedia.org/wiki/CloudControl">cloudControl</a>, one of the first European platform-as-a-service providers. Then CTO at Relocately and Regional Hero.</p>
+
+  <h2>On the side</h2>
   <ul>
-    <li>
-      <a class="item-title" href="https://www.worlddriven.org">worlddriven</a>
-      <div class="item-text">Pull requests get merged by contribution-weighted voting, so an open-source project can keep going without a single gatekeeper.</div>
-    </li>
     <li>
       <a class="item-title" href="https://github.com/TooAngel/screeps">TooAngel Screeps bot</a>
-      <div class="item-text">An autonomous AI for the programming MMO Screeps. Developed since 2015, 640+ stars and 160+ forks on GitHub.</div>
-    </li>
-  </ul>
-
-  <h2>Upstream contributions</h2>
-  <ul>
-    <li>
-      <a class="item-title" href="https://lore.kernel.org/r/20261021065833.120347-1-tooangel@tooangel.de">Linux kernel: Bluetooth</a>
-      <div class="item-text">Report <code>RFKILLED</code> instead of a generic failure when powering on a blocked controller. Applied to bluetooth-next.</div>
+      <div class="item-text">An AI that plays the programming MMO Screeps on its own. Running since 2015, grown with the help of the community.</div>
     </li>
     <li>
-      <a class="item-title" href="https://git.kernel.org/pub/scm/bluetooth/bluez.git/commit/?id=aa3d6c761cb1cdb3b1effc30740e32f5f37d0586">BlueZ</a>
-      <div class="item-text">Don't power on an adapter while it's blocked by rfkill, plus a <a href="https://git.kernel.org/pub/scm/bluetooth/bluez.git/commit/?id=1445a64e6b998a7cbccd85995d1d8dae659aa783">mgmt-tester test</a> for the kernel fix. Applied.</div>
+      <a class="item-title" href="https://www.worlddriven.org">worlddriven</a>
+      <div class="item-text">An experiment in open-source governance: contributors vote on pull requests, weighted by their contributions, so no single gatekeeper is needed.</div>
     </li>
     <li>
-      <span class="item-title">In review</span>
-      <div class="item-text">
-        <a href="https://github.com/pi-hole/pi-hole/pull/6746">Pi-hole</a>,
-        <a href="https://gitlab.com/CalcProgrammer1/OpenRGB/-/merge_requests/3757">OpenRGB</a>,
-        <a href="https://gitlab.gnome.org/GNOME/mutter/-/merge_requests/5415">mutter</a>,
-        <a href="https://github.com/bugaevc/wl-clipboard/pull/303">wl-clipboard</a>
-      </div>
+      <a class="item-title" href="https://github.com/TooAngel">Open source</a>
+      <div class="item-text">My repositories, pull requests and issues on GitHub.</div>
     </li>
   </ul>
 
@@ -97,7 +168,7 @@
   <ul class="contact">
     <li><span>Mail</span><a href="mailto:tooangel@tooangel.de">tooangel@tooangel.de</a></li>
     <li><span>GitHub</span><a rel="me" href="https://github.com/TooAngel">TooAngel</a></li>
-    <li><span>Signing key</span><a href="/keys/ssh-signing.pub">SSH ed25519</a> <code>SHA256:GqmNgCVcmicLbbOLZ8ZnHX5QFjQAFnm6g2yo0TDVQQs</code></li>
+    <li><span>LinkedIn</span><a rel="me" href="https://www.linkedin.com/in/tooangel">tooangel</a></li>
   </ul>
 
   <footer>© Tobias Wilken · No cookies, no tracking.</footer>
